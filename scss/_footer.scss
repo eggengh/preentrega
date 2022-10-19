@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    background-color: $color1;
+    padding: 2em;
+    
+}
+
+.logo_redes{
+    position: relative;
+    padding: 10px;
+    left: 2em;
+}
+
+.icono_posicion{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#pie{
+    grid-area: pie;
+}

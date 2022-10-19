@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+$color1: white;
+$color2: blueviolet;
+$color3: whitesmoke;
+$color4: #676565;
+
+@keyframes aparecer{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 800px) {
+    
+    .contenedor{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 45px 0px;
+    }
+
+    .galeria{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pie {
+        display: flex;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+.foto_tamano{
+    width: 50%;
+    max-height: 1000px;
+    margin:0 auto;
+}
+
+.tamano_icono{
+    width: 2.5em;
+}

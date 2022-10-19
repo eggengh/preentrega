@@ -1,0 +1,99 @@
+h1{
+    display: flex;
+
+    justify-content: center;
+    font-size: 1rem;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+    background-color: $color2;
+    padding: 10px; 
+
+}
+
+#productos {
+    grid-area: productos;
+    .galeria{
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+        figure{
+            text-align: center;
+            img{
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                max-width: 13em;
+                max-height: 13em;
+            }
+            figcaption{
+                font-size: 1rem;
+                padding: 10px 0;
+                background-color: $color1;
+        }
+        p.price{
+            color: #676565;
+            padding-bottom: 10px;
+            background-color: $color1;
+        }
+     }
+}
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: repeat(2, auto);
+    background-color: $color1;
+    grid-template-areas: 
+    "productos productos productos"
+    "pie pie pie";
+}
+
+main {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin: 20px 0;
+    h1{
+    font-size: 1.5rem;
+    font-family: Roboto, sans-serif;
+}
+}
+
+section {
+    h2{
+    font-size: 1.5rem;
+    font-family: Roboto, sans-serif;
+    position: relative;
+    text-align: center;
+}
+}
+
+h2{
+    padding: 10px;
+}
+
+.fondo_h2{
+    background-color: $color2;
+}
+
+.carrusel1{
+    position: relative;
+    top: 200px; left: 100px;
+    
+}
+
+.promociones{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.foto_promociones{
+    display: flex;
+    justify-content: center;
+ }
+
+
+    
